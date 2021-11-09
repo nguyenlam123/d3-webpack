@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "target": "es5",
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strictNullChecks": true,
+      "alwaysStrict": true,
+      "module": "commonjs",
+      "lib": ["es2015", "es2016", "es2017", "es2018", "es2020", "dom"]
+    }
+}

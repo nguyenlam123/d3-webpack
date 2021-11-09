@@ -1,0 +1,37 @@
+{
+  "name": "d3-webpack",
+  "version": "1.0.0",
+  "description": "Demo for d3 v7 with webpack 5 showcasing file extension error for esm imports",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@types/d3": "^7.1.0",
+    "d3": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenlam123/d3-webpack.git"
+  },
+  "author": "nguyenlam123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenlam123/d3-webpack/issues"
+  },
+  "homepage": "https://github.com/nguyenlam123/d3-webpack#readme"
+}
